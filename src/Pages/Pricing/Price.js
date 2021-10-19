@@ -12,6 +12,7 @@ const Price = ({sprice}) => {
         <h4 className="card-title text-center">{name}</h4>
         <article className="card-text text-center"><h6>{short}</h6>
         <h3><b>{price}</b></h3>
+        {/* list view  */}
         <ol className="list-group list-group-numbered">
         {
             benefit.map(single=><SingleBenefit key={single} single={single}></SingleBenefit>)

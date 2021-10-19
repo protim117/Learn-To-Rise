@@ -6,6 +6,7 @@ const Doctors = () => {
             <div className="row g-4">
                 <div className="col-lg-4">
                     <div className="row row-cols-lg-2 row-cols-1">
+                        {/* Images of Doctor  */}
                         <div className="col img-col mt-4">
                         <img src="https://i.ibb.co/6nGyRtd/1.jpg" alt="" />
                         <img src="https://i.ibb.co/VT4Ct4v/2.jpg" alt="" />

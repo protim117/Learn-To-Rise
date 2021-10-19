@@ -8,9 +8,13 @@ import './Home.css'
 const Home = () => {
     return (
         <div>
+            {/* Banner section  */}
             <Banner></Banner>
+            {/* Services section  */}
             <Services></Services>
+            {/* Doctors Section  */}
             <Doctors></Doctors>
+            {/* News Section  */}
             <News></News>
         </div>
     );

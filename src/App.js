@@ -16,32 +16,39 @@ import PrivateRoute from './PrivateRoute/PrivateRoute';
 function App() {
   return (
     <div >
+
       <AuthProvider>
-     
      <BrowserRouter>
      <Header></Header>
         <Switch>
+          {/* Home Page Route  */}
           <Route exact path='/'>
             <Home></Home>
           </Route>
           <Route path='/home'>
             <Home></Home>
           </Route>
+          {/* About Us Page  */}
           <PrivateRoute path='/aboutus'>
             <About></About>
           </PrivateRoute>
+          {/* Pricing Page  */}
           <PrivateRoute path='/pricing'>
            <Pricing></Pricing>
           </PrivateRoute>
+          {/* Dynamic Route  */}
           <PrivateRoute path='/services/:serviceId'>
             <ServiceDetails></ServiceDetails>
           </PrivateRoute>
+          {/* Login Page  */}
           <Route path='/login'>
             <Login></Login>
           </Route>
+          {/* Register Page  */}
           <Route path='/register'>
             <Register></Register>
           </Route>
+          {/* Not Found PAge  */}
           <Route path='*'>
             <NotFound></NotFound>
           </Route>

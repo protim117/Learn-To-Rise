@@ -8,10 +8,13 @@ import './Register.css'
 
 const Register = () => {
   const{signUpWithEmail,error,googleSignIn,user}=useAuth();
+   // React Hook Form 
   const { register,  handleSubmit } = useForm();
   const history=useHistory();
   const location=useLocation();
-  const redirectUrl=location.state?.from||'/home'
+   // redirection Url 
+  const redirectUrl=location.state?.from||'/home';
+  // Google Sign in Method 
   const handleGoogleSignIn=()=>{
     googleSignIn()
     .then(()=>{
@@ -19,7 +22,7 @@ const Register = () => {
     })
 }
   
-  
+  // Email and Password based Sign Up 
   const onSubmit = data =>{signUpWithEmail(data.email,data.password,data.name)
     history.push(redirectUrl);
   };
@@ -63,8 +66,9 @@ const Register = () => {
        <button type="submit" className='btn btn-warning my-4'>SUBMIT</button>
      </form>
      <p>or?</p>
+     {/* Google Sign Up  */}
      <button onClick={handleGoogleSignIn} className='btn bg-primary text-white'><i className="fab fa-google"></i> Google SIgn IN</button>
- 
+          {/* Redirecting to Log in  */}
      <h4 className='mt-4'>Already have an account? <Link to='/login'>Login</Link></h4></div>
       }
         </div>

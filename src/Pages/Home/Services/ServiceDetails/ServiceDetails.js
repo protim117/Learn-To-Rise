@@ -1,24 +1,19 @@
 import React, { useEffect, useState } from 'react';
-import { Button, Spinner } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
-
 import useServices from '../../../../Hooks/useServices';
-
-
 
 const ServiceDetails = () => {
     const {serviceId}=useParams();
     const {services}=useServices();
-const[singleService,setSingleService]=useState([])
+    const[singleService,setSingleService]=useState([])
     
+    // Filtering Specific Service 
     useEffect(()=>{
         const specificService=services?.find(service=>service.id.toString()===serviceId);
         setSingleService(specificService);
     },[services]);
 
-    console.log(singleService);
- 
-  
+    
     return (
         <div className='container mt-4'>
             <div className="row row-cols-lg-2 row-cols-1 g-5">

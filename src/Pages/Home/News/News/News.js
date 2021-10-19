@@ -8,6 +8,7 @@ const News = () => {
         <div className='container mt-5'>
             <h2 className='mb-3'><u>Today's Popular News</u></h2>
             <div className="row row-cols-1 row-cols-md-3 g-4">
+                {/* Added Some Card  */}
             {
                 news.map(singleNews => <SingleNews key={singleNews.id} singleNews={singleNews}></SingleNews>)
             }

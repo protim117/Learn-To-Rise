@@ -1,8 +1,8 @@
 import { getAuth, signInWithPopup, GoogleAuthProvider, signOut,onAuthStateChanged,createUserWithEmailAndPassword,signInWithEmailAndPassword,updateProfile  } from "firebase/auth";
 import { useEffect, useState } from "react";
-import { useHistory } from "react-router";
 import initAuth from "../Firebase/firebase.init";
 
+// initialize Authentication 
 initAuth();
 
 const useFirebase=()=>{
@@ -11,15 +11,14 @@ const useFirebase=()=>{
     const[isLoading,setIsLoading]=useState(true);
     const [successful,setSuccessful]=useState(false);
     
-    
-
     const auth = getAuth();
     const googleProvider = new GoogleAuthProvider();
 
+    // google sign in 
     const googleSignIn=()=>{
         return signInWithPopup(auth, googleProvider);
     }
-
+    // logout 
     const logOut=()=>{
       setIsLoading(true)
         signOut(auth).then(() => {
@@ -28,7 +27,7 @@ const useFirebase=()=>{
           .finally(()=> setIsLoading(false))
     }
 
-  
+  // Email & Password  based sign up 
     const signUpWithEmail = (email, password, name) => {
       setIsLoading(true);
       createUserWithEmailAndPassword(auth, email, password)
@@ -49,35 +48,34 @@ const useFirebase=()=>{
           .finally(()=>setIsLoading(false))
   }
   
- 
+ // Email & Password  based sign in
 
     const signInWIthEmail=(email, password)=>{
       setError('');
       setIsLoading(true);
       
       signInWithEmailAndPassword(auth, email, password)
-  .then((result) => {
-    setError('');
-    const user = result.user;
-    setUser(user);
-    setSuccessful(true);
-  
-  })
-  .catch((error) => {
-    setError( error.message);
-    setSuccessful(false);
-   
-  })
-  .finally(()=>setIsLoading(false))
+    .then((result) => {
+      setError('');
+      const user = result.user;
+      setUser(user);
+      setSuccessful(true);
+    
+    })
+    .catch((error) => {
+      setError( error.message);
+      setSuccessful(false);
+    
+    })
+    .finally(()=>setIsLoading(false))
     }
 
+    // onAuthStateChanged
     useEffect(()=>{
         onAuthStateChanged(auth, (user) => {
             if (user) {
            setUser(user);
-            
           }
-          
           setIsLoading(false);
         })
           

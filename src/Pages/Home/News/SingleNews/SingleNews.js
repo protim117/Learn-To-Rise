@@ -1,6 +1,7 @@
 import React from 'react';
 
 const SingleNews = ({singleNews}) => {
+  // distructuring 
     const{img,name,details}=singleNews;
     return (
         <div className='mb-4'>

@@ -15,6 +15,7 @@ const Service = ({service}) => {
         <p className="card-text">{description.slice(0,100)}</p>
       </div>
       <div className="card-body text-center">
+        {/* Added Dynamic Link  */}
          <Link to={`/services/${id}`}> <button className='button' >See Details<i className="fas fa-arrow-circle-right ps-2"></i></button></Link>
           </div>
     </div>

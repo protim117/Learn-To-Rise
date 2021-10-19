@@ -1,6 +1,7 @@
 import React from 'react';
 
 const About = () => {
+    // About Page 
     return (
         <div className="container">
             <div className="row row-cols-lg-2 row-cols-1 g-5">
