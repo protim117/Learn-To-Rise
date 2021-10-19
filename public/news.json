@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "name":"Our brains have a 'fingerprint' too",
+        "details":"'I think about it every day and dream about it at night. It's been my whole life for five years now,'says Enrico Amico, a scientist and SNSF Ambizione Fellow at EPFL's Medical Image Processing Laboratory and the EPFL Center for Neuroprosthetics. ",
+        "img":"https://images.unsplash.com/photo-1592496001020-d31bd830651f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=912&q=80"
+    },
+    {
+        "id":2,
+        "name":"COVID-19-related parenting stress impacted eating habits of children",
+        "details":"The incredible stress parents experienced during the COVID-19 pandemic had a negative effect on the eating habits of their children, according to a new study by researchers at the University of Houston College of Education.",
+        "img":"https://images.unsplash.com/photo-1563263427-708318a97183?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80"
+    },
+    {
+        "id":3,
+        "name":"Optimal blood pressure helps our brains age slower",
+        "details":"People with elevated blood pressure that falls within the normal recommended range are at risk of accelerated brain ageing, according to new research from The Australian National University (ANU).",
+        "img":"https://images.unsplash.com/photo-1615486511484-92e172cc4fe0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=871&q=80"
+    }
+]

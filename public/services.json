@@ -1,0 +1,42 @@
+[
+    {
+        "id":1,
+        "name":"Children Therapy" ,
+        "description":"Child therapy, or counseling for kids, is an evidence-based approach to counseling, designed to help children and teens their challenges. These challenges include mental illnesses, traumatic events, the loss of family members, difficult feelings and behaviors.Child counselors and child psychologists are well-equipped to work with children and understand how their minds work. This enables them to break down their problems in a way they can understand. There is not an age limit for which children can and can’t receive counseling." ,
+        "img": "https://i.ibb.co/VMcnqbx/1.jpg"
+    },
+    {
+        "id":2,
+        "name":"Depression" ,
+        "description":"Depression (major depressive disorder) is a common and serious medical illness that negatively affects how you feel, the way you think and how you act. Fortunately, it is also treatable. Depression causes feelings of sadness and/or a loss of interest in activities you once enjoyed. It can lead to a variety of emotional and physical problems and can decrease your ability to function at work and at home." ,
+        "img":"https://i.ibb.co/s9V3Szf/2.jpg" 
+    },
+    {
+        "id":3,
+        "name": "Couple Therapy" ,
+        "description":"Couples therapy is a form of psychotherapy that can help you and your partner improve your relationship. If you are having relationship difficulties, you can seek couples therapy to help rebuild your relationship.Couples therapy can help you at any stage of your relationship, regardless of marital status, age, race, faith, or sexual orientation." ,
+        "img":"https://i.ibb.co/1fRFTRM/3.jpg" 
+    },
+    {
+        "id":4,
+        "name":"Family Counselling" ,
+        "description":"A type of psychotherapy designed to identify family patterns that contribute to a behavior disorder or mental illness and help family members break those habits. Family therapy involves discussion and problem-solving sessions with the family. Some of these sessions may be as a group, in couples, or one on one. In family therapy, the web of interpersonal relationships is examined and, ideally, communication is strengthened within the family." ,
+        "img":"https://i.ibb.co/BCzy2sV/4.jpg" 
+    },
+    {
+        "id":5,
+        "name":"Insomnia" ,
+        "description":"Insomnia is a common sleep disorder that can make it hard to fall asleep, hard to stay asleep, or cause you to wake up too early and not be able to get back to sleep. You may still feel tired when you wake up. Insomnia can sap not only your energy level and mood but also your health, work performance and quality of life. How much sleep is enough varies from person to person, but most adults need seven to eight hours a night." ,
+        "img":"https://i.ibb.co/NSyGnFQ/5.jpg" 
+    },
+    {
+        "id":6,
+        "name":"PTSD" ,
+        "description":"Posttraumatic stress disorder (PTSD) is a psychiatric disorder that may occur in people who have experienced or witnessed a traumatic event such as a natural disaster, a serious accident, a terrorist act, war/combat, or rape or who have been threatened with death, sexual violence or serious injury." ,
+        "img":"https://i.ibb.co/bgsmZB3/6.jpg" 
+    }
+]
+
+
+
+

@@ -1,0 +1,15 @@
+
+.service-card-content{
+  
+    word-spacing: 8px;
+}
+.service-card-content h5{
+    font-weight: 500;
+    color: green;
+}
+.service-card-content h1{
+    color: rgb(88, 86, 86);
+}
+.service-card-content h4{
+    color: darkgrey;
+}

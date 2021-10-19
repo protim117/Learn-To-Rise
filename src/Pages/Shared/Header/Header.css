@@ -1,0 +1,17 @@
+.header-section{
+    background-color: #e3f5f9;
+}
+.selected{
+    background-color: #C71585;
+    
+}
+
+.nav-link{
+    border-radius: 10px;
+    color: black;
+    transition: all .4s;
+}
+.nav-link:hover{
+    background-color: rgb(240, 54, 153);
+   color: whitesmoke!important;
+}

@@ -1,0 +1,14 @@
+.footer-section{
+    background-color: rgb(206, 205, 205);
+}
+.footer-extra ul{
+    list-style: none;
+}
+.footer-extra ul li{
+    font-weight: 900;
+}
+.footer-button{
+    border: 1px solid violet;
+    background-image: linear-gradient(violet,deeppink);
+    border-radius: 10px;
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "name":"Short Sessions",
+        "short":"Plan Service for Small Case",
+        "price":"$45/Hour",
+        "benefit":["Analyze your case","Temporary Solutions","Result Diagnosis","Online Consultation"],
+        "img":"https://toppng.com/uploads/preview/money-bag-11530976345i5mf9sd84j.png"
+    },
+    {
+        "id":2,
+        "name":"Long Sessions",
+        "short":"Plan Service for More Serious Case",
+        "price":"$999/month",
+        "benefit":["Analyze your case","Temporary Solutions","Result Diagnosis","Online Consultation","Plan Schedule for your solutions","Short therapy for your case"],
+        "img": "https://www.freepnglogos.com/uploads/diamond-png/diamond-gemstone-black-icon-transparent-png-svg-vector-37.png"
+    },
+    {
+        "id":3,
+        "name":"Custom Plan",
+        "short":"Plan Service for More Detail Case",
+        "price":"$1449/case",
+        "benefit":["Analyze your case","Temporary Solutions","Result Diagnosis","Online Consultation","Plan Schedule for your solutions","Short therapy for your case","Personal Mentoring","Training"],
+        "img":"https://www.pngfind.com/pngs/m/106-1067694_vector-king-crown-png-transparent-png.png"
+    }
+]
